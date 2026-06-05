@@ -1,0 +1,80 @@
+.excel-export-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.excel-export-container h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.excel-export-container > p {
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.export-btn {
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #27ae60, #229954);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.export-btn:hover {
+  background: linear-gradient(135deg, #229954, #1e8449);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.export-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.export-info {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ecf0f1;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.export-info p {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.export-info ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #34495e;
+}
+
+.export-info li {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .excel-export-container {
+    padding: 15px;
+  }
+
+  .export-btn {
+    width: 100%;
+    padding: 12px 20px;
+  }
+}
